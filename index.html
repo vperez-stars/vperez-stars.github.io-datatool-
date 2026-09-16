@@ -56,24 +56,22 @@ label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px}
 <body>
 <main class="box">
   <div class="mark" aria-hidden="true">N</div>
-  <h1>Sign in to your workspace</h1>
-  <p class="sub">Enter your team's Northwind address to be sent to your company's login.</p>
+  <h1>Sign in to OneTouch</h1>
+  <p class="sub">Enter your Microsoft Entra ID email</p>
   <form onsubmit="event.preventDefault()">
-    <label for="team">Workspace address</label>
+    <label for="team">Microsoft Entra ID email</label>
     <div class="combo">
-      <input id="team" type="text" placeholder="your-team" autocomplete="organization" required
+      <input id="team" type="text" placeholder="your-email" autocomplete="organization" required
              spellcheck="false" autocapitalize="off">
-      <span class="suffix">.northwind.app</span>
+      <span class="suffix">@molsoncoors.org</span>
     </div>
     <button class="btn" type="submit" style="margin-top:20px">Continue with SSO</button>
   </form>
   <div class="or"><span>or use</span></div>
   <div class="provs">
-    <button class="prov" type="button"><span class="ic" style="background:#00297a" aria-hidden="true">O</span> Okta</button>
     <button class="prov" type="button"><span class="ic" style="background:#0078d4" aria-hidden="true">M</span> Microsoft Entra ID</button>
-    <button class="prov" type="button"><span class="ic" style="background:#1a73e8" aria-hidden="true">G</span> Google Workspace</button>
   </div>
-  <p class="foot">Not on a team plan? <a href="#">Sign in with a password</a></p>
+  <p class="foot">Forgot your email or password? <a href="#">Contact Support</a></p>
 </main>
 
 </body>
