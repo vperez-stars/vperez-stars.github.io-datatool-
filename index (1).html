@@ -19,7 +19,9 @@ a:hover{text-decoration:underline}
 input,select,button{font:inherit}
 :focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 
-body{display:grid;grid-template-columns:minmax(0,1fr);place-items:center;padding:28px 20px;background:#3357e6}
+body{display:grid;grid-template-columns:minmax(0,1fr);place-items:start center;padding-top: 0;
+  padding-bottom: 28px;min-height:100vh;background:#718aee}
+img[src="molsoncoorslogo.png"]{display:block;margin-top:48px;margin-bottom:0;padding:0}
 .box{width:100%;max-width:400px;background:#fff;border:1px solid var(--line);border-radius:16px;
   padding:38px 34px;box-shadow:0 10px 34px rgba(17,24,39,.06)}
 .mark{width:42px;height:42px;border-radius:12px;background:var(--brand);display:grid;place-items:center;
@@ -33,7 +35,6 @@ label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px}
 .btn{width:100%;padding:13px;border:0;border-radius:10px;background:var(--brand);color:#fff;
   font-size:.97rem;font-weight:700;cursor:pointer;transition:background .15s}
 .btn:hover{background:#4338ca}
-.foot{margin-top:24px;text-align:center;font-size:.89rem;color:var(--muted)}
 
 .box{max-width:430px}
 .combo{display:flex;align-items:center;border:1px solid var(--line);border-radius:10px;
@@ -59,7 +60,7 @@ label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px}
 </style>
 </head>
 <body>
-<img src="molsoncoorslogo.png" type="png" sizes="128x128" href="/molsoncoorslogo.png" >
+<img src="molsoncoorslogo.png" type="png" alt="Molson Coors" href="/molsoncoorslogo.png" padding="10px">
 <main class="box">
 <img src="favicon-32x32.png" type="png" sizes="32x32" href="/favicon-32x32.png">
   <h1>Sign in to OneTouch</h1>
