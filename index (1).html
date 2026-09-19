@@ -19,7 +19,7 @@ a:hover{text-decoration:underline}
 input,select,button{font:inherit}
 :focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 
-body{display:grid;grid-template-columns:minmax(0,1fr);place-items:center;padding:28px 20px;background:#f5f6fa}
+body{display:grid;grid-template-columns:minmax(0,1fr);place-items:center;padding:28px 20px;background:#3357e6}
 .box{width:100%;max-width:400px;background:#fff;border:1px solid var(--line);border-radius:16px;
   padding:38px 34px;box-shadow:0 10px 34px rgba(17,24,39,.06)}
 .mark{width:42px;height:42px;border-radius:12px;background:var(--brand);display:grid;place-items:center;
@@ -59,8 +59,9 @@ label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px}
 </style>
 </head>
 <body>
+<h1>Molson Coors</h1>
 <main class="box">
-  <div class="mark" aria-hidden="true">OT</div>
+<img src="favicon-32x32.png" type="png" sizes="32x32" href="/favicon-32x32.png">
   <h1>Sign in to OneTouch</h1>
   <p class="sub">Enter your Microsoft Entra ID email</p>
   <form onsubmit="event.preventDefault()">
@@ -78,7 +79,7 @@ label{display:block;font-size:.85rem;font-weight:600;margin-bottom:6px}
   </form>
   <div class="or"><span>or use</span></div>
   <div class="provs">
-    <button class="prov" type="button"><span class="ic" style="background:#0078d4" aria-hidden="true">M</span> Microsoft Entra ID</button>
+    <button class="prov" type="button"><img src="microsoftlogo.png" alt="Microsoft" height="24" width="24"> Microsoft Entra ID</button>
   </div>
   <p class="foot">Forgot your email or password? <a href="#">Contact Support</a></p>
 </main>
