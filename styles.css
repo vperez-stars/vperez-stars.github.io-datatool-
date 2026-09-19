@@ -7,7 +7,9 @@
   --ok: #15803d;
 }
 
-/* Base styles */
+/* ------------------------------
+   Base / Reset
+------------------------------ */
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +45,9 @@ button {
   outline-offset: 2px;
 }
 
-/* Layout */
+/* ------------------------------
+   Page Layout / Branding
+------------------------------ */
 body {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -61,6 +65,9 @@ img[src="molsoncoorslogo.png"] {
   padding: 0;
 }
 
+/* ------------------------------
+   Sign-in Card
+------------------------------ */
 .box {
   width: 100%;
   max-width: 430px;
@@ -71,7 +78,9 @@ img[src="molsoncoorslogo.png"] {
   box-shadow: 0 10px 34px rgba(17, 24, 39, .06);
 }
 
-/* Typography */
+/* ------------------------------
+   Typography
+------------------------------ */
 .mark {
   width: 42px;
   height: 42px;
@@ -104,7 +113,9 @@ label {
   margin-bottom: 6px;
 }
 
-/* Form controls */
+/* ------------------------------
+   Form Fields / Inputs
+------------------------------ */
 .field {
   width: 100%;
   padding: 12px 14px;
@@ -162,7 +173,9 @@ label {
   border-left: 1px solid var(--line);
 }
 
-/* Buttons */
+/* ------------------------------
+   CTA Buttons / Providers
+------------------------------ */
 .btn {
   width: 100%;
   padding: 13px;
@@ -219,7 +232,9 @@ label {
   flex-shrink: 0;
 }
 
-/* Divider */
+/* ------------------------------
+   Divider / Footer
+------------------------------ */
 .or {
   display: flex;
   align-items: center;
@@ -239,7 +254,9 @@ label {
   background: var(--line);
 }
 
-/* Responsive */
+/* ------------------------------
+   Responsive / Accessibility
+------------------------------ */
 @media (max-width: 400px) {
   .combo .suffix {
     font-size: .85rem;
